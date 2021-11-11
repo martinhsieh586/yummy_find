@@ -79,7 +79,7 @@
 			var elem3 = document.getElementById("progressbar3");
 			var elem2 = document.getElementById("progressbar2");
 			var elem = document.getElementById("progressbar");	
-			var val = 100;
+			var val = Math.floor( Math.random() * 100 );
 			
 			elem2.style.width = 0 + '%'; 
 			elem3.style.width = 0 + '%'; 
