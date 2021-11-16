@@ -88,14 +88,14 @@
 			}
 			else if ( val>=60 && val<90) {
 				//程序圖參數設定	
-				elem.style.width = val + '%'; 
-				elem2.style.width = (val-60) + '%'; 	
+				elem2.style.width = val + '%'; 
+				elem.style.width = 60 + '%'; 	
 			}
 			else if ( val>=90 && val<=100) {
 				//程序圖參數設定		
-				elem.style.width = val + '%'; 		
-				elem2.style.width = (val-60) + '%';				
-				elem3.style.width = (val-90) + '%'; 				
+				elem3.style.width = val + '%'; 	
+				elem2.style.width = 90 + '%';	
+				elem.style.width = 60 + '%'; 					
 			}
 			
 		}
@@ -125,9 +125,9 @@
 	<button onclick="move()">Click Me</button> 
 
 	<div id="myProgress">
-		<div id="progressbar"></div>
-		<div id="progressbar2"></div>
 		<div id="progressbar3"></div>
+		<div id="progressbar2"></div>
+		<div id="progressbar"></div>
 	</div>
 	
 	<div class="progress">
