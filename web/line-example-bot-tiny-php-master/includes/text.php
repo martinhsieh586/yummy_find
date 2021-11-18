@@ -31,4 +31,7 @@ if (strtolower($message['text']) == "text" || $message['text'] == "文字") {
             )
         )
     ));
+
+	
+	
 }
